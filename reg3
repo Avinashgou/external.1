@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Event registration</title>
+</head>
+<body style="display: flex; justify-content: center; align-items: center; height: 750px; background-color: white;">
+    <form style="border: 1px solid gray; padding: 20px;border-radius: 5px; width: 300px; background-color: white;">
+        <h3 style="text-align: center; font-size: 24px;">
+        Register</h3>
+        <input id="name" type="text" placeholder="name" style="width: 90%; padding: 10px; margin-bottom: 15px; font-size: 20px;"/>
+        <input type="email" placeholder="email" required style="width: 90%; padding: 10px; margin-bottom: 15px; font-size: 20px;"/>
+        <input type="tell" placeholder="phone" required style="width: 90%; padding: 10px; margin-bottom: 15px; font-size: 20px;"/>
+        <button id="button" type="submit" style="width: 100%; padding: 10px; background-color: black; color: white; border-radius: 3px; font-size: 20px;">
+        submit</button>
+    </form>
+    <script src="script.js">
+    </script>
+</body>
+</html>
+</html>
